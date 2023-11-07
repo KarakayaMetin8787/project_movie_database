@@ -20,5 +20,5 @@ Used methods:
 
 ## Flowchart / Programmablaufsplan
 
-![App Screenshot](./assets/img/Flowchart.png)
+![App Screenshot](./assets/img/Flowchart.jpg)
 
