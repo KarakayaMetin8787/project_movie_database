@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>project movie</title>
+    <link rel="stylesheet" href="./assets/css/style.css">
+</head>
+<body>
+    <header>
+        <h1>Movies for You</h1>
+    </header>
+    <main>
+        <section>
+            <h2>the best MovieDB</h2>
+            <form onsubmit="return false">
+                <input type="text" id="movieInput">
+                <input type="submit" value="SEARCH" id="startSearch">
+                <button id="resetDB">SHOW ALL ENTRIES</button>
+            </form>
+            <div>Sort by:</div>
+            <button id="sortYearUp">YEAR UP</button>
+            <button id="sortYearDown">YEAR DOWN</button>
+            <button id="sortRating">BEST RATED</button>
+        </section>
+        <article>
+            <div></div>
+        </article>
+    </main>
+    <script src="./assets/js/main.js"></script>
+</body>
+</html>

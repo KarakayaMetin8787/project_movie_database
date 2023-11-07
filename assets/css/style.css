@@ -1,0 +1,56 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  background-color: rgb(26, 26, 26);
+  color: white;
+  font-family: Arial, Helvetica, sans-serif;
+}
+body header h1 {
+  text-align: center;
+  margin: 32px 0 16px 0;
+}
+body main {
+  text-align: center;
+}
+body main section h2 {
+  margin: 0 0 8px 0;
+}
+body main section input, body main section button, body main section select {
+  padding: 5px;
+  margin: 8px 8px 16px 8px;
+}
+body main section input:nth-of-type(1) {
+  width: 300px;
+}
+body main section div {
+  display: inline;
+}
+body main article {
+  width: 80%;
+  margin: 0 auto;
+}
+body main article div {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+}
+body main article div div {
+  grid-template-columns: 1fr;
+  font-size: 1.5rem;
+  background-color: silver;
+  box-shadow: 10px 10px rgba(255, 255, 255, 0.9);
+  font-weight: 700;
+  text-shadow: 1px 1px black;
+  border-radius: 16px;
+  margin: 16px;
+  padding: 16px;
+  min-height: 280px;
+}
+body main article div div p:nth-of-type(1) {
+  color: tomato;
+}
+
+/*# sourceMappingURL=style.css.map */
